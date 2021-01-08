@@ -1239,7 +1239,6 @@ sub_8105E1C: @ 8105E1C
 	ldrh r1, [r1]
 	movs r2, 0x58
 	movs r3, 0x28
-	bl sub_8105D64
 	ldr r0, [r4]
 	adds r0, 0x4B
 	ldrb r0, [r0]
