@@ -39,6 +39,7 @@ struct CompressedSpritePalette
 {
     const u32 *data;  // LZ77 compressed palette data
     u16 tag;
+    u16 filler;
 };
 
 struct AnimFrameCmd
