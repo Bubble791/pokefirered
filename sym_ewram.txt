@@ -23,6 +23,12 @@
 	.align 2
 	.include "src/pokemon.o"
 	.align 2
+	.include "src/rtc.o"
+	.align 2
+	.include "src/dns.o"
+	.align 2
+	.include "src/dynamic_ow_pals.o"
+	.align 2
 	.include "src/daycare.o"
 	.align 2
 	.include "src/load_save.o"

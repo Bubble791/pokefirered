@@ -45,6 +45,8 @@
 	.align 2
 	.include "save.o"
 	.align 2
+	.include "rtc.o"
+	.align 2
 	.include "battle_anim_special.o"
 	.align 2
 	.include "save_failed_screen.o"

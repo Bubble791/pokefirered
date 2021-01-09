@@ -74,6 +74,9 @@ SECTIONS {
         src/battle_ai_switch_items.o(.text);
         src/battle_controller_link_opponent.o(.text);
         src/pokemon.o(.text);
+        src/rtc.o(.text);
+        src/dns.o(.text);
+        src/dynamic_ow_pals.o(.text);
         src/trig.o(.text);
         src/random.o(.text);
         src/util.o(.text);
@@ -422,6 +425,9 @@ SECTIONS {
         src/battle_controller_opponent.o(.rodata);
         src/battle_controller_link_opponent.o(.rodata);
         src/pokemon.o(.rodata);
+        src/rtc.o(.rodata);
+        src/dns.o(.rodata);
+        src/dynamic_ow_pals.o(.rodata);
         src/trig.o(.rodata);
         src/util.o(.rodata);
         src/daycare.o(.rodata);
@@ -1036,7 +1042,6 @@ SECTIONS {
         data/multiboot_pokemon_colosseum.o(.rodata);
     } =0
 
-    . = 0x08D00000;
     gfx_data :
     ALIGN(4)
     {
